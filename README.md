@@ -8,8 +8,6 @@ Para o cálculo do dígito verificador 1, multiplica-se o os 9 dígitos por um m
 
 ![image](https://github.com/user-attachments/assets/84599e80-13e5-43af-8e9c-d60a16d42913)
 
-![image](https://github.com/user-attachments/assets/b55a6c97-73a3-42ee-8f86-8f14358e1c72)
-
 
 Na fórmula, 'i', variando de 0 a 8, faz com que '(10 - i)' varie de 10 a 2, e que 'v' seja cada item do vetor, sendo 'vi' o elemento na posição i do vetor. 
 A soma obtida é então dividida por 11, e o resto da divisão é analisado: se o resto da divisão for menor que 2, o digito verificador 1 calculado é definido como 0 para a combinação de 9 dígitos em questão. Caso contrário, o valor atribuído ao dígito é o resto da divisão citada subtraído de 11:
