@@ -2,7 +2,7 @@
 Código em Java que escreve no terminal todos os CPFs válidos do Brasil (para fins estritamente acadêmicos).
 
 # Compilação e execução no terminal
-Comdando para compilar: ```javac -d target/classes src/main/java/com/mycompany/cpfs/*.java```
+Comando para compilar: ```javac -d target/classes src/main/java/com/mycompany/cpfs/*.java```
 
 Comando para executar: ```java -cp target/classes com.mycompany.cpfs.Cpfs```
 
@@ -46,4 +46,5 @@ for(int a = 9; b >= 0; a--){  //10 iterações
           10^9 iterações totais
 ```
 Assim, conclui-se que esse tipo de implementação representa custo computacional significativamente desnecessário, mas existe valor de análise marcante acerca d
+
 
