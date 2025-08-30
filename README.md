@@ -1,5 +1,11 @@
 # TodosOsCPFs
 Código em Java que escreve no terminal todos os CPFs válidos do Brasil (para fins estritamente acadêmicos).
+
+# Compilação e execução no terminal
+Comdando para compilar: ```javac -d target/classes src/main/java/com/mycompany/cpfs/*.java```
+
+Comando para executar: ```java -cp target/classes com.mycompany.cpfs.Cpfs```
+
 # Funcionamento
 A implementação possui um algoritmo usado para gerar CPFs feito com base em algoritmo semelhante que verifica se um dado CPF é válido ou não, sendo este usado comparando os dígitos verificadores (os dois últimos, após o traço) do CPF a ser conferido com os dígitos verificadores calculados a partir dos demais dígitos (os 9 antes do traço).
 ## Algoritmo que calcula os dígitos verificadores
@@ -40,3 +46,4 @@ for(int a = 9; b >= 0; a--){  //10 iterações
           10^9 iterações totais
 ```
 Assim, conclui-se que esse tipo de implementação representa custo computacional significativamente desnecessário, mas existe valor de análise marcante acerca d
+
